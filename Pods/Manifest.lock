@@ -1,0 +1,20 @@
+PODS:
+  - ORSSerialPort (2.0.2)
+  - VLCKit (3.3.2)
+
+DEPENDENCIES:
+  - ORSSerialPort
+  - VLCKit (~> 3.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ORSSerialPort
+    - VLCKit
+
+SPEC CHECKSUMS:
+  ORSSerialPort: 3fb0d2404b7e8b99c4f1aa7e7314d63030cd54c3
+  VLCKit: f17b2771c8e3660f766bd6b65d7d5e60b9ddf1a9
+
+PODFILE CHECKSUM: b11a0b2bc662426030943301b706444e3ea4d90e
+
+COCOAPODS: 1.5.3

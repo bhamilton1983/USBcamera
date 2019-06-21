@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047481DC68C5475210F08FBB147B18B2 /* ORSSerialPacketDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = BF783E8271B0775118D05D0149BFF708 /* ORSSerialPacketDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131AC348952F91CE44B0059FC82BC69F /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D8FDB48CDDAECB64AC8A61857054BD /* ORSSerialRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BC430E0EE1FC18A23FEC491471014C0 /* ORSSerialRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D42E540B8E1C03D53FE70E16CD72F2E /* ORSSerialRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2010EF368E215F6E69B76E70DEAA14D9 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF69F3C9E535B84F974CD8735D8EE4B /* ORSSerialPacketDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34DA88204F9B9AF3015726C8C2D2EB40 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F747BBB15C6F21F6CEA7F856614A4898 /* ORSSerialPortManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3AC476E73660F7CB3E157928208F97FE /* ORSSerialBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C09B47CB8389F89637C6132290245AB8 /* ORSSerialBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E087776BCF0E706189743B81AC3D9AE /* ORSSerialPort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0152832EBD0E56C4DF5444D59D17DD6F /* ORSSerialPort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477A3FD9EDF88455D9C04D2F8155CF28 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 6409A14202EEC5DF50E64036095F3ABB /* ORSSerialPort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49112B481E54A8F43333DC0059854F47 /* ORSSerialPortManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D2B01E55DB84E68F1B3CF285A6AFF1 /* ORSSerialPortManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537A7205CF4DFAAFF335DE37C81E4AC6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350D8714E912454970B401DDE8F3C85C /* Cocoa.framework */; };
+		ADCA6442E96C10BC22ABF06174758F4D /* ORSSerialPort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A214FA5C31CE615EA063451BA56338C6 /* ORSSerialPort-dummy.m */; };
+		BCEC17D904D60FA9663B7EF2CF708F52 /* Pods-USBcamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4F5EB4BA6F172CDC1DDAC4EE2A658F /* Pods-USBcamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18447770C49EED8058E9F922D864401 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6B267E93917FEA0729E16FFD69780E /* IOKit.framework */; };
+		C51F103DC3E7307F2E7D3441AE530391 /* Pods-USBcamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F901B49612D0723DBC27DD684533F /* Pods-USBcamera-dummy.m */; };
+		D63B36C64F00A5090836DB28AE485E7B /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 284991232379533D1DE333E19F0A416D /* ORSSerialBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9C9F552350ED0BC90B0D1A9C27C82D2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350D8714E912454970B401DDE8F3C85C /* Cocoa.framework */; };
+		FF785E3C3B7895004EC59206F12AB8AC /* ORSSerialPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 1006683EA9A93CF869C882EDC89E9B30 /* ORSSerialPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F433B744AB048BDF65C049E01E67F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5B45729AB62980521A899FAF4331EB;
+			remoteInfo = ORSSerialPort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0152832EBD0E56C4DF5444D59D17DD6F /* ORSSerialPort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-umbrella.h"; sourceTree = "<group>"; };
+		01791F4328637233D5666B51B80E6C2F /* Pods_USBcamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_USBcamera.framework; path = "Pods-USBcamera.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0519A89C0EEB945A1A310AB918FDA202 /* VLCTranscoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCTranscoder.h; path = VLCKit.framework/Versions/A/Headers/VLCTranscoder.h; sourceTree = "<group>"; };
+		08D8FDB48CDDAECB64AC8A61857054BD /* ORSSerialRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = Source/ORSSerialRequest.m; sourceTree = "<group>"; };
+		1006683EA9A93CF869C882EDC89E9B30 /* ORSSerialPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = Source/ORSSerialPort.h; sourceTree = "<group>"; };
+		10D2B01E55DB84E68F1B3CF285A6AFF1 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
+		154788B2CA5A60C018B8997155D43964 /* VLCMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaPlayer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaPlayer.h; sourceTree = "<group>"; };
+		1C6B267E93917FEA0729E16FFD69780E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		284991232379533D1DE333E19F0A416D /* ORSSerialBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
+		2D42E540B8E1C03D53FE70E16CD72F2E /* ORSSerialRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = Source/ORSSerialRequest.h; sourceTree = "<group>"; };
+		3137504AC3A930E6D437D191C2600726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327D055D30A43927ED9CF299995EE65F /* Pods-USBcamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-USBcamera.debug.xcconfig"; sourceTree = "<group>"; };
+		348F08D03DCB33278F07A00B65833FBC /* VLCRendererDiscoverer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCRendererDiscoverer.h; path = VLCKit.framework/Versions/A/Headers/VLCRendererDiscoverer.h; sourceTree = "<group>"; };
+		350D8714E912454970B401DDE8F3C85C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		3D18DD0BB5AB0F579661B8BB77BD4AB3 /* ORSSerialPort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ORSSerialPort.modulemap; sourceTree = "<group>"; };
+		3E4F5EB4BA6F172CDC1DDAC4EE2A658F /* Pods-USBcamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-USBcamera-umbrella.h"; sourceTree = "<group>"; };
+		3EE086B2F09C560C87FA426B86A5CC7C /* VLCVideoLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCVideoLayer.h; path = VLCKit.framework/Versions/A/Headers/VLCVideoLayer.h; sourceTree = "<group>"; };
+		4C16D631D0815433A073FB91779A8F0A /* VLCRendererItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCRendererItem.h; path = VLCKit.framework/Versions/A/Headers/VLCRendererItem.h; sourceTree = "<group>"; };
+		4C1FEB93E21583D5B1063A76ACA1173E /* VLCMediaDiscoverer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaDiscoverer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaDiscoverer.h; sourceTree = "<group>"; };
+		4EF69F3C9E535B84F974CD8735D8EE4B /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		50565CC9AADC4868DB2B5D08AD45F165 /* VLCAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCAudio.h; path = VLCKit.framework/Versions/A/Headers/VLCAudio.h; sourceTree = "<group>"; };
+		51C061E680CA5EBC13F39CE98BCEB09A /* VLCLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCLibrary.h; path = VLCKit.framework/Versions/A/Headers/VLCLibrary.h; sourceTree = "<group>"; };
+		5EC1B5610CD9EECBEE914189C8CA526A /* VLCKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCKit.h; path = VLCKit.framework/Versions/A/Headers/VLCKit.h; sourceTree = "<group>"; };
+		5F2451AE118C0A8F591FFFAA8C73CE69 /* Pods-USBcamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-USBcamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FC3D97771D59042485DF334A11F6351 /* Pods-USBcamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-USBcamera-resources.sh"; sourceTree = "<group>"; };
+		6409A14202EEC5DF50E64036095F3ABB /* ORSSerialPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = Source/ORSSerialPort.m; sourceTree = "<group>"; };
+		6B92B1600F4FEE6F188CEC77C8670F68 /* VLCStreamOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCStreamOutput.h; path = VLCKit.framework/Versions/A/Headers/VLCStreamOutput.h; sourceTree = "<group>"; };
+		710F901B49612D0723DBC27DD684533F /* Pods-USBcamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-USBcamera-dummy.m"; sourceTree = "<group>"; };
+		83B1C952B84AC9E069116869054C6F06 /* VLCVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCVideoView.h; path = VLCKit.framework/Versions/A/Headers/VLCVideoView.h; sourceTree = "<group>"; };
+		862A0D46BA1C49648AED5F8F0B2A5136 /* VLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VLCKit.framework; sourceTree = "<group>"; };
+		87915993329C81B1EC507D63A7A9E38B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE88E4928AF093930ECC89867CBAA42 /* ORSSerialPort.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ORSSerialPort.xcconfig; sourceTree = "<group>"; };
+		9C26F903F9952A21A1B919C007108B10 /* Pods-USBcamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-USBcamera.release.xcconfig"; sourceTree = "<group>"; };
+		A214FA5C31CE615EA063451BA56338C6 /* ORSSerialPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ORSSerialPort-dummy.m"; sourceTree = "<group>"; };
+		A31B5D0B9D6C851C1225CEDC430D49B3 /* VLCTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCTime.h; path = VLCKit.framework/Versions/A/Headers/VLCTime.h; sourceTree = "<group>"; };
+		B09797A92F46B7CD947B1310C4749F5F /* VLCStreamSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCStreamSession.h; path = VLCKit.framework/Versions/A/Headers/VLCStreamSession.h; sourceTree = "<group>"; };
+		B0B26E0A14E604A78A5FD49E5B8D28B0 /* ORSSerial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ORSSerial.framework; path = ORSSerialPort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF783E8271B0775118D05D0149BFF708 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		C09B47CB8389F89637C6132290245AB8 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
+		C2362BEC8BFA1F287BAA82D82A05DDE8 /* VLCMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMedia.h; path = VLCKit.framework/Versions/A/Headers/VLCMedia.h; sourceTree = "<group>"; };
+		C2CFB85DF397BAF1357FDB1C031AB0F6 /* Pods-USBcamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-USBcamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6C03DEDE3DC2845F735BED0A329D0A0 /* VLCMediaListPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaListPlayer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaListPlayer.h; sourceTree = "<group>"; };
+		C7744BC9880E30014A2420FB248AED43 /* ORSSerialPort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPort-prefix.pch"; sourceTree = "<group>"; };
+		CB61791549F30AB02BA39E725A8CC719 /* VLCMediaLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaLibrary.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaLibrary.h; sourceTree = "<group>"; };
+		D02385CB0F410FD5DD4CE4D48D3AAFEC /* VLCMediaThumbnailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaThumbnailer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaThumbnailer.h; sourceTree = "<group>"; };
+		D3347AD4051110D5074C971C157D4C8A /* Pods-USBcamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-USBcamera.modulemap"; sourceTree = "<group>"; };
+		F747BBB15C6F21F6CEA7F856614A4898 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
+		F7D3CF77A18ABEB8335ED682DEEACB6F /* Pods-USBcamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-USBcamera-frameworks.sh"; sourceTree = "<group>"; };
+		FCE247F7D60ABA532D3DBA1ECAEA51FE /* VLCMediaList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaList.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaList.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178E8DD62CFC2842A0BD3C4B280D8152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537A7205CF4DFAAFF335DE37C81E4AC6 /* Cocoa.framework in Frameworks */,
+				C18447770C49EED8058E9F922D864401 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF9076F901F23E84FD8850FC3818D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C9F552350ED0BC90B0D1A9C27C82D2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E367D0D00EBD5C30DC9A702F72397B4 /* VLCKit */ = {
+			isa = PBXGroup;
+			children = (
+				50565CC9AADC4868DB2B5D08AD45F165 /* VLCAudio.h */,
+				5EC1B5610CD9EECBEE914189C8CA526A /* VLCKit.h */,
+				51C061E680CA5EBC13F39CE98BCEB09A /* VLCLibrary.h */,
+				C2362BEC8BFA1F287BAA82D82A05DDE8 /* VLCMedia.h */,
+				4C1FEB93E21583D5B1063A76ACA1173E /* VLCMediaDiscoverer.h */,
+				CB61791549F30AB02BA39E725A8CC719 /* VLCMediaLibrary.h */,
+				FCE247F7D60ABA532D3DBA1ECAEA51FE /* VLCMediaList.h */,
+				C6C03DEDE3DC2845F735BED0A329D0A0 /* VLCMediaListPlayer.h */,
+				154788B2CA5A60C018B8997155D43964 /* VLCMediaPlayer.h */,
+				D02385CB0F410FD5DD4CE4D48D3AAFEC /* VLCMediaThumbnailer.h */,
+				348F08D03DCB33278F07A00B65833FBC /* VLCRendererDiscoverer.h */,
+				4C16D631D0815433A073FB91779A8F0A /* VLCRendererItem.h */,
+				6B92B1600F4FEE6F188CEC77C8670F68 /* VLCStreamOutput.h */,
+				B09797A92F46B7CD947B1310C4749F5F /* VLCStreamSession.h */,
+				A31B5D0B9D6C851C1225CEDC430D49B3 /* VLCTime.h */,
+				0519A89C0EEB945A1A310AB918FDA202 /* VLCTranscoder.h */,
+				3EE086B2F09C560C87FA426B86A5CC7C /* VLCVideoLayer.h */,
+				83B1C952B84AC9E069116869054C6F06 /* VLCVideoView.h */,
+				9B9131BDD3687118994F358B4CDC43A7 /* Frameworks */,
+			);
+			name = VLCKit;
+			path = VLCKit;
+			sourceTree = "<group>";
+		};
+		592F81DD27A96214C71258BAFDEC7C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0B26E0A14E604A78A5FD49E5B8D28B0 /* ORSSerial.framework */,
+				01791F4328637233D5666B51B80E6C2F /* Pods_USBcamera.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				883CDA97BDACF8DE23E1527CF4DAFF7A /* Pods */,
+				592F81DD27A96214C71258BAFDEC7C81 /* Products */,
+				FD7181B82977D358F12AF4EC205360B7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		853E7943E854338CF88C432DCF5AFFB9 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				C09B47CB8389F89637C6132290245AB8 /* ORSSerialBuffer.h */,
+				284991232379533D1DE333E19F0A416D /* ORSSerialBuffer.m */,
+				BF783E8271B0775118D05D0149BFF708 /* ORSSerialPacketDescriptor.h */,
+				4EF69F3C9E535B84F974CD8735D8EE4B /* ORSSerialPacketDescriptor.m */,
+				1006683EA9A93CF869C882EDC89E9B30 /* ORSSerialPort.h */,
+				6409A14202EEC5DF50E64036095F3ABB /* ORSSerialPort.m */,
+				10D2B01E55DB84E68F1B3CF285A6AFF1 /* ORSSerialPortManager.h */,
+				F747BBB15C6F21F6CEA7F856614A4898 /* ORSSerialPortManager.m */,
+				2D42E540B8E1C03D53FE70E16CD72F2E /* ORSSerialRequest.h */,
+				08D8FDB48CDDAECB64AC8A61857054BD /* ORSSerialRequest.m */,
+				A6935C76EB82063D550C3B3A0A953169 /* Support Files */,
+			);
+			name = ORSSerialPort;
+			path = ORSSerialPort;
+			sourceTree = "<group>";
+		};
+		883CDA97BDACF8DE23E1527CF4DAFF7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				853E7943E854338CF88C432DCF5AFFB9 /* ORSSerialPort */,
+				4E367D0D00EBD5C30DC9A702F72397B4 /* VLCKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B9131BDD3687118994F358B4CDC43A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				862A0D46BA1C49648AED5F8F0B2A5136 /* VLCKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6935C76EB82063D550C3B3A0A953169 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87915993329C81B1EC507D63A7A9E38B /* Info.plist */,
+				3D18DD0BB5AB0F579661B8BB77BD4AB3 /* ORSSerialPort.modulemap */,
+				9BE88E4928AF093930ECC89867CBAA42 /* ORSSerialPort.xcconfig */,
+				A214FA5C31CE615EA063451BA56338C6 /* ORSSerialPort-dummy.m */,
+				C7744BC9880E30014A2420FB248AED43 /* ORSSerialPort-prefix.pch */,
+				0152832EBD0E56C4DF5444D59D17DD6F /* ORSSerialPort-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ORSSerialPort";
+			sourceTree = "<group>";
+		};
+		B0CCB868DE333015678C9DAE40F26FC9 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				350D8714E912454970B401DDE8F3C85C /* Cocoa.framework */,
+				1C6B267E93917FEA0729E16FFD69780E /* IOKit.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		C2F0EE5C7679BE873F8FE1475859E655 /* Pods-USBcamera */ = {
+			isa = PBXGroup;
+			children = (
+				3137504AC3A930E6D437D191C2600726 /* Info.plist */,
+				D3347AD4051110D5074C971C157D4C8A /* Pods-USBcamera.modulemap */,
+				5F2451AE118C0A8F591FFFAA8C73CE69 /* Pods-USBcamera-acknowledgements.markdown */,
+				C2CFB85DF397BAF1357FDB1C031AB0F6 /* Pods-USBcamera-acknowledgements.plist */,
+				710F901B49612D0723DBC27DD684533F /* Pods-USBcamera-dummy.m */,
+				F7D3CF77A18ABEB8335ED682DEEACB6F /* Pods-USBcamera-frameworks.sh */,
+				5FC3D97771D59042485DF334A11F6351 /* Pods-USBcamera-resources.sh */,
+				3E4F5EB4BA6F172CDC1DDAC4EE2A658F /* Pods-USBcamera-umbrella.h */,
+				327D055D30A43927ED9CF299995EE65F /* Pods-USBcamera.debug.xcconfig */,
+				9C26F903F9952A21A1B919C007108B10 /* Pods-USBcamera.release.xcconfig */,
+			);
+			name = "Pods-USBcamera";
+			path = "Target Support Files/Pods-USBcamera";
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CCB868DE333015678C9DAE40F26FC9 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD7181B82977D358F12AF4EC205360B7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F0EE5C7679BE873F8FE1475859E655 /* Pods-USBcamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A933D3B67BCBB88D1862C2B6DE233BF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEC17D904D60FA9663B7EF2CF708F52 /* Pods-USBcamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C4F03B10F704292E1694623C769054 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC476E73660F7CB3E157928208F97FE /* ORSSerialBuffer.h in Headers */,
+				047481DC68C5475210F08FBB147B18B2 /* ORSSerialPacketDescriptor.h in Headers */,
+				3E087776BCF0E706189743B81AC3D9AE /* ORSSerialPort-umbrella.h in Headers */,
+				FF785E3C3B7895004EC59206F12AB8AC /* ORSSerialPort.h in Headers */,
+				49112B481E54A8F43333DC0059854F47 /* ORSSerialPortManager.h in Headers */,
+				1BC430E0EE1FC18A23FEC491471014C0 /* ORSSerialRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A85268FDA5C6C8DC06FF9E14482CC2C /* Pods-USBcamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A4D31AE18C6B73CD7997CA24E31AB8 /* Build configuration list for PBXNativeTarget "Pods-USBcamera" */;
+			buildPhases = (
+				A933D3B67BCBB88D1862C2B6DE233BF3 /* Headers */,
+				02EB7D7592FB6659ABCA0CC1DD4615CF /* Sources */,
+				2BF9076F901F23E84FD8850FC3818D59 /* Frameworks */,
+				2D84490EE89FE50971CF7F0062DAF00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D253D74678A8BDB519226DEEB4C80F05 /* PBXTargetDependency */,
+			);
+			name = "Pods-USBcamera";
+			productName = "Pods-USBcamera";
+			productReference = 01791F4328637233D5666B51B80E6C2F /* Pods_USBcamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA5B45729AB62980521A899FAF4331EB /* ORSSerialPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 772445CE41B480786A2ADC9DB4272AB8 /* Build configuration list for PBXNativeTarget "ORSSerialPort" */;
+			buildPhases = (
+				D7C4F03B10F704292E1694623C769054 /* Headers */,
+				2B47C5A7BC83C667C2EC915418EDCEBB /* Sources */,
+				178E8DD62CFC2842A0BD3C4B280D8152 /* Frameworks */,
+				65820410C935545318A439BF6D2E943E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORSSerialPort;
+			productName = ORSSerialPort;
+			productReference = B0B26E0A14E604A78A5FD49E5B8D28B0 /* ORSSerial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 592F81DD27A96214C71258BAFDEC7C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5B45729AB62980521A899FAF4331EB /* ORSSerialPort */,
+				4A85268FDA5C6C8DC06FF9E14482CC2C /* Pods-USBcamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D84490EE89FE50971CF7F0062DAF00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65820410C935545318A439BF6D2E943E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02EB7D7592FB6659ABCA0CC1DD4615CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51F103DC3E7307F2E7D3441AE530391 /* Pods-USBcamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B47C5A7BC83C667C2EC915418EDCEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63B36C64F00A5090836DB28AE485E7B /* ORSSerialBuffer.m in Sources */,
+				2010EF368E215F6E69B76E70DEAA14D9 /* ORSSerialPacketDescriptor.m in Sources */,
+				ADCA6442E96C10BC22ABF06174758F4D /* ORSSerialPort-dummy.m in Sources */,
+				477A3FD9EDF88455D9C04D2F8155CF28 /* ORSSerialPort.m in Sources */,
+				34DA88204F9B9AF3015726C8C2D2EB40 /* ORSSerialPortManager.m in Sources */,
+				131AC348952F91CE44B0059FC82BC69F /* ORSSerialRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D253D74678A8BDB519226DEEB4C80F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ORSSerialPort;
+			target = BA5B45729AB62980521A899FAF4331EB /* ORSSerialPort */;
+			targetProxy = 05F433B744AB048BDF65C049E01E67F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7426D5702D214B9A1FD5660A8EA66BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C26F903F9952A21A1B919C007108B10 /* Pods-USBcamera.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-USBcamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-USBcamera/Pods-USBcamera.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95E5A69502A6CE2440BAF7E663602FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327D055D30A43927ED9CF299995EE65F /* Pods-USBcamera.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-USBcamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-USBcamera/Pods-USBcamera.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9992CE2C5F65320F0081E9A0ACAFFF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A512332E722B9A1760E42381C9E56DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE88E4928AF093930ECC89867CBAA42 /* ORSSerialPort.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/ORSSerialPort/ORSSerialPort-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORSSerialPort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/ORSSerialPort/ORSSerialPort.modulemap";
+				PRODUCT_MODULE_NAME = ORSSerial;
+				PRODUCT_NAME = ORSSerial;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8839AD7653CEFF76AD5F439FF9C9B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE88E4928AF093930ECC89867CBAA42 /* ORSSerialPort.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/ORSSerialPort/ORSSerialPort-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ORSSerialPort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/ORSSerialPort/ORSSerialPort.modulemap";
+				PRODUCT_MODULE_NAME = ORSSerial;
+				PRODUCT_NAME = ORSSerial;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D79C9CF82E0503B6800775A4C33DD9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C9CF82E0503B6800775A4C33DD9A7 /* Debug */,
+				9992CE2C5F65320F0081E9A0ACAFFF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		772445CE41B480786A2ADC9DB4272AB8 /* Build configuration list for PBXNativeTarget "ORSSerialPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8839AD7653CEFF76AD5F439FF9C9B07 /* Debug */,
+				A512332E722B9A1760E42381C9E56DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A4D31AE18C6B73CD7997CA24E31AB8 /* Build configuration list for PBXNativeTarget "Pods-USBcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E5A69502A6CE2440BAF7E663602FDF /* Debug */,
+				7426D5702D214B9A1FD5660A8EA66BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
