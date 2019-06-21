@@ -67,7 +67,7 @@ class ViewController: NSViewController, VLCMediaDelegate {
             }
             let allDevies: [AVCaptureDevice] = AVCaptureDevice.devices(for: .video)
             let aDevice:AVCaptureDevice
-            aDevice = allDevies[0]
+            aDevice = allDevies[3]
             print(allDevies)
             let uvc: UVC = try UVC(device: aDevice)
           
